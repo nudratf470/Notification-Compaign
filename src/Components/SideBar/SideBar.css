@@ -27,10 +27,7 @@
   align-items: center;
 }
 
-.iconSize{
-  width: 18px;
-  height: 18px;
-}
+
 
 .icon-wrap {
   height: 34px;
@@ -40,10 +37,13 @@
 }
 
 .sidebar-link.active{
-margin-left: 10px;
-background-color: #FFE24D;
-  border-radius: 7px 0 0 7px;
-  height: 34px;
-  width: 100%;
+
+border-radius: 7px 0 0 7px;
+width: 37px;
+height: 34px;
+background: #FFE24D;
+position: relative;
+left:2px;
+
 }
 

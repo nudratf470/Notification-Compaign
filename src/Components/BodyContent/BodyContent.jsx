@@ -12,7 +12,7 @@ const BodyContent = () => {
     <>
       <Cards/>
       <PerformanceChart/>
-      <div className='preview-cards my-4'>
+      <div className='preview-cards'>
         <div className='NotificationPreview'>
           <h4>Push Notification Preview</h4>
           <NotificationPreview/>

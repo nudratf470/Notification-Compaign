@@ -70,11 +70,11 @@ const colorMap = {
 
 export default function PerformanceChart() {
   return (
-    <div className="performance-card mt-4">
+    <div className="performance-card">
       <h4 className="performance-title">Performance Over Time</h4>
 
       <div className="performance-chart">
-        <ResponsiveContainer width="100%" height={350}>
+        <ResponsiveContainer width={1166} height={368}>
           <LineChart
             data={data}
            

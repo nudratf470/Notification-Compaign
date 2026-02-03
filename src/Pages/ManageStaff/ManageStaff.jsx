@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
-import TemplateListTopBar from '../../Components/TopBar/TopBar'
-
+import TemplateListTopBar from '../../Components/TemplateListTopBar/TemplateListTopBar'
 
 const ManageStaff = () => {
   return (

@@ -6,9 +6,9 @@ import OnboardingType from "./Pages/OnboardingDashboard/OnboardingType";
 function App() {
   return (
     <>
-      {/* <NotificationCard /> */}
-      <OnboardingType />
-      {/* <ManageStaff /> */}
+      {/* <NotificationCard />*/}
+        <OnboardingType />
+       {/*<ManageStaff /> */}
     </>
   );
 }

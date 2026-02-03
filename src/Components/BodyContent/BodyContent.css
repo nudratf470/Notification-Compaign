@@ -1,5 +1,4 @@
 
-
 .preview-cards{
   display: flex;
   gap: 15px;
@@ -7,6 +6,7 @@
   max-height: none;          
   flex-wrap: wrap;           
   align-items: stretch;
+  margin-top: 19px !important;
 }
 
 .NotificationPreview h4{

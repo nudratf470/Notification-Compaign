@@ -1,0 +1,79 @@
+.moon-icon{
+    background-color: var(--brand-lightGray);
+    border-radius: 8px;
+    width: 33px;
+    height: 33px;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+
+.top-bar{
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    height: 51px!important;
+}
+
+.TemplateTopbar-heading{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #404145;
+}
+
+.add{
+width: 45px;
+background: #FFEF9C;
+border-radius: 10px;
+padding:11px 8px;
+border: none;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #745D00;
+}
+
+.setting-icon{
+display: inline-flex; 
+align-items: center; 
+justify-content: center;
+width: 30px;
+height: 30px;
+background: #FFFFFF;
+border: 0.5px solid #DCDCDC;
+border-radius: 5px;
+}
+
+.search-bar {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.search-icon {
+  background-color: #f3f4f6;
+  border: none;
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.search-input {
+  border: none;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  box-shadow: none;
+}
+
+.filter-button {
+  border: none;
+  background-color: #f3f4f6;
+  color: #6b7280;
+  font-size: 16px;
+}

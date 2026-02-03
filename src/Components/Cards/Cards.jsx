@@ -14,11 +14,11 @@ const Cards = () => {
   return (
     <>
 <Container fluid className='p-0 m-0'>
-    <Row className='compaign-cards my-2 gx-4 gy-3'>
+    <Row className='compaign-cards gx-4 gy-3'>
       <Col xs={12} sm={6} md={3} lg={3}>
       <Card className="Content-Card d-flex gap-1">
       <div className="card-heading d-flex justify-content-between">
-     <div className="iconbg"> <img src={send} className=''/></div> 
+     <div className="iconbg Blue"> <img src={send} className=''/></div> 
      <div className='arrowbg'><img src={zigzagarrow}/><span>12.5%</span></div>
        </div>
       <h3 className="notificationNumber me-auto">2,156</h3>
@@ -29,7 +29,7 @@ const Cards = () => {
      <Col xs={12} sm={6} md={3}>
       <Card className="Content-Card d-flex gap-1">
       <div className="card-heading d-flex justify-content-between">
-     <div className="iconbg"> <img src={delivered} className=''/></div> 
+     <div className="iconbg Green"> <img src={delivered} className=''/></div> 
       <div className='arrowbg'><img src={zigzagarrow}/><span>99.9%</span></div>
        </div>
       <h3 className="notificationNumber me-auto">2,143</h3>
